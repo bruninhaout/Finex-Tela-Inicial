@@ -43,7 +43,7 @@ body {
     text-align: center;
     margin: 0;
     /* Remove margem padrão do h1 */
-    padding: 100px 0;
+    padding: 30px 0;
     /* Adiciona espaçamento vertical */
 }
 
@@ -73,6 +73,21 @@ body {
     color: #fff;
 }
 
+/* Estilo para o botão de imagem */
+.botao-imagem {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-image: url('img/user.png');
+    background-size: cover;
+    background-color: transparent;
+    /* Fundo transparente */
+    width: 30px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}
+
 .menu {
     text-align: center;
     /* Centraliza horizontalmente */
@@ -84,6 +99,48 @@ body {
     /* Centraliza horizontalmente */
     transform: translate(-50%, -50%);
     /* Ajusta o centro */
+}
+
+.mensagem-usuario {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    /* Espaçamento vertical */
+}
+
+/* Estilo para as opções */
+.opcoes {
+    display: in;
+    position: absolute;
+    top: 60px;
+    right: 15px;
+    background-color: rgb(0, 75, 29);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para os botões de opção */
+.opcoes button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo para o botão "Sair" */
+#sair {
+    background-color: #dc3545;
+}
+
+/* Estilo para o botão "Perfil" */
+#perfil {
+    background-color: #28a745;
 }
 
 .waves {
